@@ -9,3 +9,13 @@ pnpm-debug.log*
 
 # Vite build output
 dist
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Playwright CT snapshots - darwin (use Linux for CI-compatible snapshots)
+**/*-snapshots/*-darwin.png

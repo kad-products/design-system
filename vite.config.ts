@@ -12,6 +12,11 @@ import dts from 'vite-plugin-dts';
 const __dirname: string = fileURLToPath(new URL('.', import.meta.url));
 
 export default defineConfig({
+	resolve: {
+		alias: {
+			'@': resolve(__dirname, 'src'),
+		},
+	},
 	plugins: [
 		react(),
 		dts({
@@ -46,6 +51,7 @@ export default defineConfig({
 		},
 	},
 	test: {
+		exclude: ['**/__tests__/*.ct.test.{ts,tsx}', 'node_modules'],
 		projects: [
 			{
 				extends: true,

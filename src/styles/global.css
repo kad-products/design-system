@@ -1,0 +1,51 @@
+/* Global design tokens for KAD Design System */
+
+:root {
+	/* Radix Mauve scale */
+	--mauve-1: #fdfcfd;
+	--mauve-2: #faf9fb;
+	--mauve-3: #f2eff3;
+	--mauve-4: #eae7ec;
+	--mauve-5: #e3dfe6;
+	--mauve-6: #dbd8e0;
+	--mauve-7: #d0cdd7;
+	--mauve-8: #bcb9c6;
+	--mauve-9: #8e8c99;
+	--mauve-10: #84828e;
+	--mauve-11: #65636d;
+	--mauve-12: #211f26;
+
+	/* Radix Violet scale */
+	--violet-1: #fdfcfe;
+	--violet-2: #faf8ff;
+	--violet-3: #f4f0fe;
+	--violet-4: #ebe4ff;
+	--violet-5: #dfd6ff;
+	--violet-6: #cec3f9;
+	--violet-7: #b9acf1;
+	--violet-8: #9e8be7;
+	--violet-9: #6e56cf;
+	--violet-10: #644fc1;
+	--violet-11: #5746af;
+	--violet-12: #20134b;
+
+	/* Radix Black alpha */
+	--black-a1: rgba(0, 0, 0, 0.05);
+	--black-a2: rgba(0, 0, 0, 0.1);
+	--black-a3: rgba(0, 0, 0, 0.15);
+	--black-a4: rgba(0, 0, 0, 0.2);
+
+	/* Accent (alias to violet for now) */
+	--accent-1: var(--violet-1);
+	--accent-2: var(--violet-2);
+	--accent-3: var(--violet-3);
+	--accent-4: var(--violet-4);
+	--accent-5: var(--violet-5);
+	--accent-6: var(--violet-6);
+	--accent-7: var(--violet-7);
+	--accent-8: var(--violet-8);
+	--accent-9: var(--violet-9);
+	--accent-10: var(--violet-10);
+	--accent-11: var(--violet-11);
+	--accent-12: var(--violet-12);
+}
