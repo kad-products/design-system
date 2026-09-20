@@ -31,7 +31,7 @@ jobs:
         run: pnpm install
 
       - name: Run Playwright CT tests
-        run: pnpm playwright-ct:run
+        run: pnpm playwright:run
         env:
           HOME: /root
 
