@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/kad-products/design-system/compare/v1.0.0...v1.0.1) (2026-09-20)
+
+### Bug Fixes
+
+* initial poc for publish workflow ([6011182](https://github.com/kad-products/design-system/commit/601118298cea29b650464571ffb0a4b5cf2a9477))
+
 ## 1.0.0 (2026-09-20)
 
 ### Features
