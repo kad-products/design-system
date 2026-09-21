@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/kad-products/design-system/compare/v1.0.4...v1.1.0) (2026-09-21)
+
+### Features
+
+* enable first attempt at package publication ([6ee2695](https://github.com/kad-products/design-system/commit/6ee2695e59d0b2c2deea8915c0d552b2b1f89b4e))
+
 ## [1.0.4](https://github.com/kad-products/design-system/compare/v1.0.3...v1.0.4) (2026-09-21)
 
 ### Bug Fixes

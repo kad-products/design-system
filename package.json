@@ -1,6 +1,6 @@
 {
 	"name": "@kad-products/design-system",
-	"version": "1.0.4",
+	"version": "1.1.0",
 	"description": "Design System for KAD's products",
 	"sideEffects": [
 		"**/*.css"
