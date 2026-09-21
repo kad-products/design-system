@@ -1,4 +1,3 @@
 git lfs push origin HEAD
-pnpm playwright:run
-pnpm biome:check
-pnpm types:check
+pnpm ci:tests
+pnpm ci:lint
