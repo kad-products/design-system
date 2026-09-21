@@ -1,11 +1,7 @@
 'use client';
 import type { KADTableColumn, Permission } from '@/types';
 
-// import styleClasses from './table.module.css';
-const styleClasses = {
-	kadTable: 'kad-table',
-	kadTableActions: 'kad-table-actions',
-};
+import styleClasses from './table.module.css';
 
 export default function KADTable<T extends Record<string, unknown>>({
 	columns,
