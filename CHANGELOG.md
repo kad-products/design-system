@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/kad-products/design-system/compare/v1.0.3...v1.0.4) (2026-09-21)
+
+### Bug Fixes
+
+* use shared workflows ([2a12121](https://github.com/kad-products/design-system/commit/2a121214d57e5a692c1f19597605fe56efa3da80))
+
 ## [1.0.3](https://github.com/kad-products/design-system/compare/v1.0.2...v1.0.3) (2026-09-21)
 
 ### Bug Fixes
