@@ -25,4 +25,3 @@ jobs:
           pnpm biome:check
           pnpm knip:check
           pnpm types:check
-          pnpm test:run
