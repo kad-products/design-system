@@ -1,4 +1,4 @@
-name: Publish
+name: Publish Package
 on:
   push:
     tags:
@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   release:
-    name: Publish
+    name: Publish Package
     runs-on: ubuntu-latest
     permissions:
       contents: read
