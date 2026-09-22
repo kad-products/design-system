@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/kad-products/design-system/compare/v1.1.0...v1.1.1) (2026-09-22)
+
+### Bug Fixes
+
+* export bundles and modules as client ([921dbdc](https://github.com/kad-products/design-system/commit/921dbdc7123f347ee0503b09b06559830f123b6f))
+
 ## [1.1.0](https://github.com/kad-products/design-system/compare/v1.0.4...v1.1.0) (2026-09-21)
 
 ### Features
