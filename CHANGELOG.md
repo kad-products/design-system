@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/kad-products/design-system/compare/v1.1.1...v1.1.2) (2026-09-22)
+
+### Bug Fixes
+
+* noop for new workflows ([4acebd1](https://github.com/kad-products/design-system/commit/4acebd1dfdc73927df9949824aeb7cd53288a3af))
+
 ## [1.1.1](https://github.com/kad-products/design-system/compare/v1.1.0...v1.1.1) (2026-09-22)
 
 ### Bug Fixes
