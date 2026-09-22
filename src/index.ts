@@ -1,3 +1,4 @@
+'use client';
 import KADAvatar from './components/avatar/avatar';
 import KADButton from './components/button/button';
 import KADSortableList from './components/sortable-list/sortable-list';

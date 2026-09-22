@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { storybookTest } from '@storybook/addon-vitest/vitest-plugin';
 import react from '@vitejs/plugin-react';
 import { playwright } from '@vitest/browser-playwright';
+import preserveDirectives from 'rollup-plugin-preserve-directives';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 
@@ -38,7 +39,6 @@ export default defineConfig({
 		lib: {
 			entry: resolve(__dirname, 'src/index.ts'),
 			formats: ['es'],
-			fileName: 'design-system',
 		},
 		sourcemap: true,
 		// Emit one combined stylesheet (dist/style.css) instead of
@@ -48,6 +48,13 @@ export default defineConfig({
 			// Don't bundle react or Radix into the output — they're resolved
 			// from the consuming project's / this package's own node_modules.
 			external: ['react', 'react-dom', 'react/jsx-runtime', 'radix-ui'],
+			output: {
+				preserveModules: true,
+				preserveModulesRoot: 'src',
+				dir: 'dist',
+				entryFileNames: '[name].js',
+			},
+			plugins: [preserveDirectives()],
 		},
 	},
 	test: {
